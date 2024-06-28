@@ -53,6 +53,9 @@
     <div class="button-container">
         <button class="gradient-button" onclick="window.location.href='qrscanner.html';">Scan Coupon</button>
     </div>
+    <div class="button-container">
+        <button class="gradient-button" onclick="window.location.href='scanner/docs/index.html';">Scan QR</button>
+    </div>
     
 </body>
 </html>
