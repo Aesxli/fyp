@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background: url('../images/bg1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.back-icon {
+    width: 35px; 
+    height: 35px; 
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 5px auto;
+    align-items: center;
+}
+
+.container h1 {
+    text-align: center;
+    color: #ffffff;
+}
+.section {
+    background-color: #302e39c2;
+    padding: 50px 30px;
+    border-radius: 0.25em;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+}
+#my-qr-reader {
+    padding: 20px !important;
+    border: 1.5px !important;
+    border-radius: 2px;
+    display: center;
+}
+#my-qr-reader__scan_region img{
+    height: 100px;
+    width: 100px;;
+    filter: invert(100%) brightness(100%);
+}
+#my-qr-reader img[alt="Info icon"] {
+    display: none;
+}
+
+#my-qr-reader img[alt="Camera based scan"] {
+    height: 100px;
+    width: 100px;;
+    filter: invert(100%) brightness(100%);
+}
+#my-qr-reader #my-qr-reader__scan_region #qr-shaded-region {
+    border-width: 10px 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #34C3E0;
+    outline: none;
+    border-radius: 0.25em;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #34C3E0;
+    transition: 0.3s background-color;
+}
+
+button:hover {
+    background-color: #248ca1;
+}
+
+#html5-qrcode-anchor-scan-type-change {
+    display: none;
+}
+
+video {
+    width: 100% !important;
+    border: 1px solid #110f0f !important;
+    border-radius: 0.25em;
+}
+

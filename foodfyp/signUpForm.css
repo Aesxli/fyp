@@ -1,0 +1,176 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: url('images/bg1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.back-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header-content h1 {
+    margin: 0;
+    margin-left: 2vw;
+}
+
+header {
+    padding: 20px;
+}
+
+
+.signUpForm {
+    border-radius: 3px;
+    margin: 0vw 10vw 0vw 10vw;
+    color: white;
+}
+
+/* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.btnSubmit {
+    text-align: center;
+    color: white;
+    background-color: #34C3E0;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 5vh;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Poppins';
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+form h3 {
+    margin: 0;
+}
+
+
+.field {
+    border: #E1058C 2px solid;
+    border-radius: 5px;
+    height: 4vh;
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.imgName {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.camera {
+    margin-top: 10px;
+}
+
+.btnUpload {
+    font-family: 'Poppins';
+    font-weight: 600;
+    background-color: #34C3E0;
+    border: none;
+    color: white;
+    border-radius: 14px;
+    padding: 10px 15px;
+    margin-right: 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.btnCamera {
+    font-family: 'Poppins';
+    font-weight: 600;
+    background-color: #E1058C;
+    border: none;
+    color: white;
+    border-radius: 14px;
+    padding: 10px 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.txtBtn {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.chckSch {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    position: relative;
+    margin-right: 10px;
+}
+
+.chckSch:checked::before {
+    content: "\2714";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #564E89;
+    background-color: white;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.chckLabel {
+    display: flex;
+    align-items: center;
+}
+
+.drpHead {
+    margin: 0;
+}
+
+.drpdwn {
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+    border: #E1058C 1.5px solid;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.placeholderOption {
+    color: #9a9a9a;
+}
+
+.drpGrp {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.drpContainer {
+    width: 150px;
+}
+
+.btnSubmit {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}

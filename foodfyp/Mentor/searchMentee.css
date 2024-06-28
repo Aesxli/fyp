@@ -1,0 +1,75 @@
+.table-wrapper {
+    background-color: #001f3f; /* Dark blue background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;  */
+    /* background-color: brown; */
+   
+}
+
+.table-blue{
+    background-color:  #34C3E0;
+}
+
+.table th, td {
+   
+    /* border: 1px solid black; */
+    padding: 8px;
+    text-align: left;
+    
+    color: rgb(0, 0, 0);
+   
+    
+}.table th {
+    background-color: #34C3E0;/* Green background for table headers */
+    
+}
+
+.table tr:nth-child(even) {
+    background-color: #0abfe4; 
+}
+
+.table tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+
+
+.table-blue{
+    background-color:  #34C3E0;
+}
+.edit-button, .coupon-button, .delete-button{
+
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-button{
+    background-color: #efcb04;
+}
+
+.coupon-button{
+    background-color: #e0349e;
+}
+
+.delete-button{
+    background-color: #fd4444;
+}
+
+
+

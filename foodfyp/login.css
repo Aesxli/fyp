@@ -1,0 +1,265 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: url('images/bg1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.back-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header-content h1 {
+    margin: 0;
+    margin-left: 2vw;
+}
+
+header {
+    padding: 20px;
+}
+
+
+.loginForm {
+    border-radius: 3px;
+    margin: 0vw 10vw 0vw 10vw;
+    color: white;
+}
+
+/* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.btnSubmit {
+    text-align: center;
+    color: white;
+    background-color: #34C3E0;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 5vh;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Poppins';
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+form h3 {
+    margin: 0;
+}
+
+.fillPass,
+.fillEmail {
+    border: #E1058C 2px solid;
+    border-radius: 5px;
+    height: 4vh;
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.or {
+    text-align: center;
+}
+
+.btnContainer {
+    text-align: center;
+    margin: 0 10vw 0 10vw;
+
+}
+
+.btn {
+    background: linear-gradient(to right, #E1058C, #1E1362);
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    width: 100%;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+
+i {
+    margin-right: 2vw;
+}
+
+.signUp {
+    text-align: center;
+    margin: 7vh 10vw 0 10vw;
+}
+
+.signTxt {
+    font-weight: 500;
+}
+
+.signUpBtn {
+    color: white;
+    background-color: #34C3E0;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 5vh;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Poppins';
+    padding: 0 20px;
+}
+/*start page*/
+.removeunderline {
+    text-decoration: none;
+}
+
+.Getstarted {
+    text-align: center;
+    color: white;
+    background-color: #34C3E0;
+    border: none;
+    border-radius: 15px;
+    width: 70%;
+    /*width: 60%;*/
+    height: 5vh;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures the text is vertically centered */
+    cursor: pointer;
+    margin-left: 4rem;
+    /*margin-left: 18rem;*/
+}
+.logoimage {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    width: 100%; /* Ensure container is 100% width of parent */
+    height: 200px; /* Adjust height of container if needed */
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.logoimage img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.circle-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    background-color: #564E89; /* Background color of the circle */
+    border-radius: 50%; /* Makes the background a circle */
+}
+
+.circle-background img {
+    max-width: 80%; /* Ensure the image fits well within the circle */
+    max-height: 80%; /* Ensure the image fits well within the circle */
+}
+h2{
+    margin-left: 4rem;
+    text-decoration: solid;
+    margin-top: 10rem;
+}
+.Issuerbutton {
+    text-align: center;
+    color: white;
+    background-color: #1E1362;
+    border: none;
+    border-radius: 15px;
+    width: 70%;
+    /*width: 60%;*/
+    height: 5vh;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures the text is vertically centered */
+    cursor: pointer;
+    margin-left: 4rem;
+    /*margin-left: 18rem;*/
+    margin-bottom: 2rem;
+}
+.Claimantbutton {
+    text-align: center;
+    color: white;
+    background-color: #E1058C;
+    border: none;
+    border-radius: 15px;
+    width: 70%;
+    /*width: 60%;*/
+    height: 5vh;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures the text is vertically centered */
+    cursor: pointer;
+    margin-left: 4rem;
+    /*margin-left: 18rem;*/
+    margin-bottom: 2rem;
+}
+.Adminbutton {
+    text-align: center;
+    color: white;
+    background-color: #34C3E0;
+    border: none;
+    border-radius: 15px;
+    width: 70%;
+    /*width: 60%;*/
+    height: 5vh;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures the text is vertically centered */
+    cursor: pointer;
+    margin-left: 4rem;
+    /*margin-left: 18rem;*/
+    margin-bottom: 2rem;
+}
+.Vendorbutton {
+    text-align: center;
+    color: white;
+    background-color: #2913B0;
+    border: none;
+    border-radius: 15px;
+    width: 70%;
+    /*width: 60%;*/
+    height: 5vh;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures the text is vertically centered */
+    cursor: pointer;
+    margin-left: 4rem;
+    /*margin-left: 18rem;*/
+    margin-bottom: 2rem;
+}

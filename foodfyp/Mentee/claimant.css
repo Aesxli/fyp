@@ -1,0 +1,172 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: url('../images/bg1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.logout-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+header {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+header h1,
+header h4 {
+    margin: 0;
+}
+
+.welcome {
+    font-size: 27px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: white;
+}
+
+.txt {
+    margin-top: 0.5rem;
+    font-family: "Poppins";
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    color: white;
+}
+
+.btnContainer {
+    margin-top: 1vh;
+    text-align: center;
+    width: 100%;
+}
+
+.btnF {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: white solid 2px;
+    cursor: pointer;
+    border-radius: 18vw;
+    font-size: 15pt;
+    color: white;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.btnExpr {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.btnActive {
+    background-color: #E1058C;
+}
+
+
+
+.coupon {
+    font-family: "Poppins";
+    background-color: white;
+    margin: 3vh 20px 0px 20px;
+    border-radius: 6px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.imgContainer {
+    line-height: 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 6px 0px 0px 6px;
+    object-fit: cover;
+
+}
+
+.couponHeader {
+    color: black;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.couponName {
+    font-size: 13pt;
+    margin-bottom: none;
+}
+
+.couponDetails {
+    font-weight: 500;
+    font-size: 10pt;
+}
+
+.bottomRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.couponType {
+    font-weight: 600;
+    color: #34C3E0;
+    align-items: flex-end;
+
+}
+
+.btnRedeem {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #34C3E0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 70%;
+    padding: 5px 10px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3),
+        inset 0 3px 20px 0 rgba(0, 0, 0, 0.1)
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#expired {
+    display: none;
+}
+
+.expired {
+    font-weight: 500;
+    color: #E1058C;
+    margin-left: auto;
+}
+
+.space {
+    height: 50px;
+}

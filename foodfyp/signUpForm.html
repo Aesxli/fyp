@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signUpForm.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a href="login.html">
+                <img src="images/Daco_2767433.png" alt="back-icon" class="back-icon">
+            </a>
+            <h1>Sign Up</h1>
+        </div>
+    </header>
+    <div class="signUpForm">
+        <form>
+            <label>
+                <h3>Full Name (on NRIC)</h3>
+                <input type="text" class='field' />
+            </label>
+            <br><br>
+            <label>
+                <h3>Password</h3>
+                <input type="password" class='field' />
+            </label>
+            <br><br>
+            <label>
+                <h3>NRIC (Last 4 digits e.g 1234A)</h3>
+                <input type="text" class='field' pattern="\d{3}[A-Z]" />
+            </label>
+            <br><br>
+            <div class="camera">
+                <h3>Photo of yourself for verification</h3>
+                <h5 class="imgName">No upload yet</h5>
+                <button class="btnUpload"><span class="txtBtn">Upload from device</span></button>
+                <button class="btnCamera"><span class="txtBtn">Use Camera</span></button>
+            </div>
+            <br>
+            <label class="chckLabel">
+                <input type="checkbox" class="chckSch" id="chckSch" name="chck">
+                Using this for school purpose
+            </label>
+            <br>
+            <div>
+                <label>
+                    <h3 class="drpHead">Polytechnic:</h3>
+                    <select class="drpdwn">
+                        <option class="placeholderOption" disabled selected>-Select-</option>
+                        <option>Singapore Polytechnic</option>
+                        <option>Nanyang Polytechnic</option>
+                        <option>Republic Polytechnic</option>
+                        <option>Ngee Ann Polytechnic</option>
+                        <option>Temasek Polytechnic</option>
+                    </select>
+                </label>
+            </div>
+            <br>
+            <div class="drpGrp">
+                <div class="drpContainer">
+                    <label>
+                        <h3 class="drpHead">School:</h3>
+                        <select class="drpdwn">
+                            <option class="placeholderOption" disabled selected>-Select-</option>
+                            <option>SOI</option>
+                            <option>SOH</option>
+                            <option>SOE</option>
+                            <option>SAS</option>
+                            <option>SMC</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="drpContainer">
+                    <label>
+                        <h3 class="drpHead">Diploma:</h3>
+                        <select class="drpdwn">
+                            <option class="placeholderOption" disabled selected>-Select-</option>
+                            <option>DAAA</option>
+                            <option>DIT</option>
+                            <option>DFM</option>
+                            <option>DECM</option>
+                            <option>DCDF</option>
+                            <option>DFT</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class='submitContainer'>
+                <input type="submit" value="Sign Up" class='btnSubmit' />
+            </div>
+
+        </form>
+<script>
+    // function checkDisabled(){
+    //     var option = document.getElementsByClassName('placeholderOption'){
+            
+    //     }
+    // }
+</script>
+
+</body>
+
+</html>
